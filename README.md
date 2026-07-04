@@ -26,28 +26,4 @@ Frontend	HTML5, Tailwind CSS (custom build), Chart.js, Tabler Icons
 Authentication	Session‑based + secure HTTP‑only cookie for "Remember me"
 Hosting	Any PHP/MySQL shared hosting or VPS (Apache / Nginx)
 
-PROJECT STRUCTURE
-text
-tourvolt/
-├── assets/
-│   ├── css/
-│   │   └── app.css              # Tailwind-based design system
-│   └── js/
-│       └── theme.js             # Dark mode toggle + interactions
-├── includes/
-│   ├── auth.php                 # Session handling, login, remember‑me logic
-│   ├── config.php               # DB credentials + PDO connection
-│   └── functions.php            # Helpers (badges, dates, etc.)
-├── partials/
-│   ├── header.php               # Nav, dark mode toggle
-│   └── footer.php               # Closing tags + scripts
-├── login.php                    # Public login page
-├── dashboard.php                # Home screen
-├── trips.php                    # Trip list with filters & inline actions
-├── trip_detail.php              # Full trip workspace
-├── clients.php                  # Client CRM
-├── client_profile.php           # Individual client profile
-├── money.php                    # Financial dashboard
-├── quote.php                    # Quote preview + print
-├── logout.php                   # Logout handler
-└── index.php                    # Redirect to dashboard
+
